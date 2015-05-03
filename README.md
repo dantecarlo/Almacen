@@ -10,49 +10,48 @@ A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.0.
 
 ## Installation
 
-Step 1: Open terminal.
+Step 1:
 
-Step 2: Type cd /var/www/html
+Open terminal.
 
-Step 3: Type this command to download CakePHP:
+Step 2:
 
+Type cd /var/www/html
+
+Step 3:
+
+Type this command to download CakePHP:
 $ sudo wget https://codeload.github.com/cakephp/cakephp/legacy.zip/2.5.2
-
 where 2.5.2 is the latest stable version of CakePHP.
-
 Step 4: It will be downloaded in zip format. To extract it type this command:
-
 $ sudo unzip 2.5.2
 
-Step 5: Rename extracted folder.
+Step 5: 
 
+Rename extracted folder.
 $ mv cakephp-cakephp-736e999/ cake
-
 where cakephp-cakephp-736e999 is the name of extracted folder.
-
 To run CakePHP on browser use this path localhost/cake.
 
 
-Step 6: Go to cake folder.
+Step 6: 
 
+Go to cake folder.
 $ cd cake
-
 And change permissions to app/tmp folder.
-
 $ sudo chown -R root:www-data app/tmp
-
 $ sudo chmod -R 775 app/tmp
 
-Step 7: To make script writable perform these steps:
+Step 7:
 
+To make script writable perform these steps:
 $ apache2ctl -M
-
 If you see mod_rewrite in the list shown then script is writable. If not then to enable it type this command:
-
 $ a2enmod rewrite
 
-Step 8: Type cd /etc/apache2
+Step 8:
 
+Type cd /etc/apache2
 $ sudo nano  apache2.conf
 
 Set these lines in the file:
@@ -108,16 +107,16 @@ Ensure require is present in composer.json. This will install the plugin into Pl
         "cakephp/debug_kit": "2.2.*"
     }
 }
+
 STEP 2:
 
 Then, in your app/Config/bootstrap.php, add (or un-comment) the following line:
-
 CakePlugin::load('DebugKit');
 
-STEP 3: Ensure debug is 1 or more
+STEP 3:
 
+Ensure debug is 1 or more
 In your Config/core.php file, make sure this line:
-
 Configure::write('debug', 2);
 has a value of 1 or 2. (read more about debug mode here)
 
@@ -144,20 +143,19 @@ public $default = array(
 );
 
 
-Step 3: To remove the salt and seed error shown on top of the localhost/cake page we have to edit core.php file.
+Step 4:
 
-$ sudo nano core.php
+To remove the salt and seed error shown on top of the localhost/cake page we have to edit core.php file.
 
-Find this section and replace both the strings with any random strings or you can use these strings also.
-
-/* A random string used in security hashing methods. */
-
-Configure::write(‘Security.salt’, ‘fvjhdj8fvn85grg73fbrvfn9fjFGfnhvt758nADG‘);
-
-/* A random numeric string (digits only) used to encrypt/decrypt strings. */
-
-Configure::write(‘Security.cipherSeed’, ‘55857485748594575784348784787475‘);
-
-Then press ctrl+x, press y and enter to save file.
+  $ sudo nano core.php
+  Find this section and replace both the strings with any random strings or you can use these strings also.
+  /* A random string used in security hashing methods. */
+  Configure::write(‘Security.salt’, ‘fvjhdj8fvn85grg73fbrvfn9fjFGfnhvt758nADG‘);
+  /* A random numeric string (digits only) used to encrypt/decrypt strings. */
+  Configure::write(‘Security.cipherSeed’, ‘55857485748594575784348784787475‘);
+  Then press ctrl+x, press y and enter to save file.
+  
+  
+  
 
 Refresh localhost/cake page. And its done.
