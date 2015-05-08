@@ -321,3 +321,225 @@ Request URL: /Almacen/Purchase_order/add
 Stack Trace:
 #0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-07 22:55:08 Error: [MissingControllerException] Controller class PurchaseOrderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseOrderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchase_order/
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-07 22:59:42 Error: [MissingControllerException] Controller class PurchaseOrderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseOrderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-07 22:59:47 Error: [MissingControllerException] Controller class PurchaseOrderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseOrderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchase_order
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 12:49:05 Error: [MissingControllerException] Controller class PurchaseOrderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseOrderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 13:38:20 Error: [MissingControllerException] Controller class PurchaseOrderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseOrderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 13:40:45 Error: [MissingTableException] Table purchase_orders for model PurchaseOrder was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'purchase_orders',
+  'class' => 'PurchaseOrder',
+  'ds' => 'default',
+)
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('purchase_orders')
+#1 /var/www/html/Almacen/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/Almacen/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/Almacen/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('PurchaseOrder', 'fields')
+#4 /var/www/html/Almacen/app/View/PurchaseOrder/add.ctp(3): FormHelper->create('PurchaseOrder')
+#5 /var/www/html/Almacen/lib/Cake/View/View.php(961): include('/var/www/html/A...')
+#6 /var/www/html/Almacen/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/A...', Array)
+#7 /var/www/html/Almacen/lib/Cake/View/View.php(473): View->_render('/var/www/html/A...')
+#8 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#11 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-05-08 13:41:54 Error: Fatal Error (64): Cannot redeclare class Purchase_order in [/var/www/html/Almacen/app/Model/PurchaseOrder.php, line 0]
+2015-05-08 13:41:54 Error: [FatalErrorException] Cannot redeclare class Purchase_order
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/html/A...', 0)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/html/A...', 0, Array)
+#2 /var/www/html/Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/html/A...', 0, Array)
+#3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:42:34 Error: [MissingTableException] Table purchase_orders for model PurchaseOrder was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'purchase_orders',
+  'class' => 'PurchaseOrder',
+  'ds' => 'default',
+)
+Request URL: /Almacen/purchase_order/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('purchase_orders')
+#1 /var/www/html/Almacen/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /var/www/html/Almacen/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /var/www/html/Almacen/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('PurchaseOrder', 'fields')
+#4 /var/www/html/Almacen/app/View/PurchaseOrder/add.ctp(3): FormHelper->create('PurchaseOrder')
+#5 /var/www/html/Almacen/lib/Cake/View/View.php(961): include('/var/www/html/A...')
+#6 /var/www/html/Almacen/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/A...', Array)
+#7 /var/www/html/Almacen/lib/Cake/View/View.php(473): View->_render('/var/www/html/A...')
+#8 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#11 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-05-08 13:42:51 Error: [MissingControllerException] Controller class PurchaseorderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseorderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchaseorder
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 13:43:01 Error: [MissingControllerException] Controller class PurchaseorderController could not be found.
+Exception Attributes: array (
+  'class' => 'PurchaseorderController',
+  'plugin' => NULL,
+)
+Request URL: /Almacen/purchaseorder
+Stack Trace:
+#0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 13:43:52 Error: Fatal Error (1): Call to a member function find() on null in [/var/www/html/Almacen/app/Controller/PurchaseOrderController.php, line 8]
+2015-05-08 13:43:52 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /Almacen/PurchaseOrder
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/A...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/A...', 8, Array)
+#2 /var/www/html/Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/A...', 8, Array)
+#3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 13:47:25 Error: [MissingTableException] Table purchase_orders for model PurchaseOrder was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'purchase_orders',
+  'class' => 'PurchaseOrder',
+  'ds' => 'default',
+)
+Request URL: /Almacen/PurchaseOrder
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('purchase_orders')
+#1 /var/www/html/Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /var/www/html/Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /var/www/html/Almacen/app/Controller/PurchaseOrderController.php(8): Model->find('all')
+#4 [internal function]: PurchaseOrderController->index()
+#5 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchaseOrderController), Array)
+#6 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#8 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-05-08 13:48:30 Error: [PDOException] SQLSTATE[42P01]: Undefined table: 7 ERROR:  relation "purchase_orders_id_seq" does not exist
+Request URL: /Almacen/PurchaseOrder/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Datasource/Database/Postgres.php(294): PDO->lastInsertId('purchase_orders...')
+#1 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(1014): Postgres->lastInsertId('purchase_orders', 'id')
+#2 /var/www/html/Almacen/lib/Cake/Model/Model.php(1928): DboSource->create(Object(PurchaseOrder), Array, Array)
+#3 /var/www/html/Almacen/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#4 /var/www/html/Almacen/app/Controller/PurchaseOrderController.php(13): Model->save(Array)
+#5 [internal function]: PurchaseOrderController->add()
+#6 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchaseOrderController), Array)
+#7 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#9 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-05-08 14:02:46 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+Request URL: /Almacen/PurchaseOrder/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 /var/www/html/Almacen/lib/Cake/Model/Model.php(1928): DboSource->create(Object(PurchaseOrder), Array, Array)
+#4 /var/www/html/Almacen/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/Almacen/app/Controller/PurchaseOrderController.php(13): Model->save(Array)
+#6 [internal function]: PurchaseOrderController->add()
+#7 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchaseOrderController), Array)
+#8 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#10 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-05-08 14:02:55 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+Request URL: /Almacen/PurchaseOrder/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 /var/www/html/Almacen/lib/Cake/Model/Model.php(1928): DboSource->create(Object(PurchaseOrder), Array, Array)
+#4 /var/www/html/Almacen/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/Almacen/app/Controller/PurchaseOrderController.php(13): Model->save(Array)
+#6 [internal function]: PurchaseOrderController->add()
+#7 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchaseOrderController), Array)
+#8 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#10 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-05-08 14:10:24 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+Request URL: /Almacen/PurchaseOrder/add
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /var/www/html/Almacen/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 /var/www/html/Almacen/lib/Cake/Model/Model.php(1928): DboSource->create(Object(PurchaseOrder), Array, Array)
+#4 /var/www/html/Almacen/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /var/www/html/Almacen/app/Controller/PurchaseOrderController.php(13): Model->save(Array)
+#6 [internal function]: PurchaseOrderController->add()
+#7 /var/www/html/Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PurchaseOrderController), Array)
+#8 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
+#10 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-05-08 14:30:42 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/html/Almacen/app/View/PurchaseOrder/index.ctp, line 23]
+2015-05-08 14:30:42 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /Almacen/PurchaseOrder
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/A...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/A...', 23, Array)
+#2 /var/www/html/Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/A...', 23, Array)
+#3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-08 14:32:27 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/html/Almacen/app/View/PurchaseOrder/index.ctp, line 23]
+2015-05-08 14:32:27 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /Almacen/PurchaseOrder
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/A...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/A...', 23, Array)
+#2 /var/www/html/Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/A...', 23, Array)
+#3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

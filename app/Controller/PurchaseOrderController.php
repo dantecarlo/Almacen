@@ -1,11 +1,11 @@
 <?php
-class Purchase_orderController extends AppController{
+class PurchaseOrderController extends AppController{
 
 	public $helpers = array('Html', 'Form');
 	public $components = array('Session');
 
 	public function index(){
-		$this->set('Orden_de_compra', $this->Purchase_order->find('all'));
+		$this->set('Orden_de_compra', $this->PurchaseOrder->find('all'));
 	}
 
 	public function add(){
@@ -17,5 +17,7 @@ class Purchase_orderController extends AppController{
 		endif;
 
 	}
+
+
 
 }
