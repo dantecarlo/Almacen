@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'port' => '5432',
 		'host' => 'localhost',
 		'login' => 'postgres',
-		'password' => '1234',
+		'password' => 'luciana',
 		'database' => 'almacen',
 		'prefix' => '',
 		//'encoding' => 'utf8',
