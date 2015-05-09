@@ -543,3 +543,101 @@ Stack Trace:
 #3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-05-08 21:53:53 Error: [MissingControllerException] Controller class EmailController could not be found.
+Exception Attributes: array (
+  'class' => 'EmailController',
+  'plugin' => NULL,
+)
+Request URL: /Email
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 21:54:06 Error: [MissingControllerException] Controller class AsdasdController could not be found.
+Exception Attributes: array (
+  'class' => 'AsdasdController',
+  'plugin' => NULL,
+)
+Request URL: /asdasd
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 21:57:12 Error: [MissingViewException] View file "Pages/sad.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/sad.ctp',
+)
+Request URL: /pages/sad
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/lib/Cake/View/View.php(470): View->_getViewFileName('sad')
+#1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Controller/Controller.php(960): View->render('sad', NULL)
+#2 /home/diego/Desktop/trabajo-negrita/app/Controller/PagesController.php(68): Controller->render('sad')
+#3 [internal function]: PagesController->display('sad')
+#4 /home/diego/Desktop/trabajo-negrita/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-08 22:07:31 Error: [MissingViewException] View file "Pages/cake.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/cake.ctp',
+)
+Request URL: /cake
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-08 22:08:47 Error: [MissingViewException] View file "Pages/cake.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/cake.ctp',
+)
+Request URL: /cake
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-08 22:08:48 Error: [MissingViewException] View file "Pages/cake.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/cake.ctp',
+)
+Request URL: /cake
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-08 22:31:07 Error: [MissingControllerException] Controller class CakeController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeController',
+  'plugin' => NULL,
+)
+Request URL: /cake
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 22:32:25 Error: [MissingControllerException] Controller class LogindfsController could not be found.
+Exception Attributes: array (
+  'class' => 'LogindfsController',
+  'plugin' => NULL,
+)
+Request URL: /logindfs
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-08 22:41:36 Error: [MissingActionException] Action AppController::main.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'main.html',
+)
+Request URL: /app/main.html
+Stack Trace:
+#0 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
