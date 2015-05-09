@@ -42,6 +42,9 @@ And change permissions to app/tmp folder.
 $ sudo chown -R root:www-data app/tmp
 $ sudo chmod -R 775 app/tmp
 
+$sudo chmod 777 -R .
+
+
 Step 7:
 
 To make script writable perform these steps:
