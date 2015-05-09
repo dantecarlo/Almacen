@@ -48,4 +48,21 @@ class PagesController extends AppController {
 	public function displayLoginView() {
 		$this->render('login');
 	}
+
+	public function validateCredentials() {
+		$this->loadModel('Login');
+
+		$username = $this->request->data['username'];
+		$password = $this->request->data['password'];
+
+		$dbUserLogin = $this->Login->find('first', array(
+	        'conditions' => array('Login.username' => $username)
+	    ));
+
+	    print_r( $dbUserLogin );
+
+	    $this->redirect('/');
+
+	}
+
 }

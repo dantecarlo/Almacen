@@ -14,19 +14,20 @@
 			<div flex="33">
 				<md-card style="background: #fff; ">
 					<md-card-content layout="column">
-
+					<form action="/loginx" method="POST">
 						
 						<md-subheader class="md-primary">Inicio sesión</md-subheader>
 						<md-input-container>
-							<label>Email</label>
-							<input ng-model="email">
+							<label>Usuario</label>
+							<input ng-model="username" name="username">
 						</md-input-container>
 						<md-input-container>
 							<label>Contraseña</label>
-							<input type="password" ng-model="sdfs">
+							<input type="password" ng-model="password" name="password">
 						</md-input-container>
 						<md-button class="md-raised md-primary">Ingresar</md-button>
 
+					</form>
 					</md-card-content>
 				</md-card>
 			</div>

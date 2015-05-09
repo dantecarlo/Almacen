@@ -641,3 +641,57 @@ Stack Trace:
 #1 /home/diego/Desktop/trabajo-negrita/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 /home/diego/Desktop/trabajo-negrita/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-05-08 23:17:36 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-09 11:02:08 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-09 11:02:19 Error: [MissingControllerException] Controller class LoginxController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginxController',
+  'plugin' => NULL,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-09 11:03:22 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'SQLSTATE[08006] [7] FATAL:  password authentication failed for user "postgres"
+FATAL:  password authentication failed for user "postgres"',
+  'enabled' => true,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2/lib/Cake/Model/Datasource/DboSource.php(260): Postgres->connect()
+#1 /home/eileen/Desktop/is2/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/eileen/Desktop/is2/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /home/eileen/Desktop/is2/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/eileen/Desktop/is2/lib/Cake/Model/Model.php(3644): Model->setSource('logins')
+#5 /home/eileen/Desktop/is2/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /home/eileen/Desktop/is2/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#7 /home/eileen/Desktop/is2/app/Controller/PagesController.php(60): Model->find('first', Array)
+#8 [internal function]: PagesController->validateCredentials()
+#9 /home/eileen/Desktop/is2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/eileen/Desktop/is2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /home/eileen/Desktop/is2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
