@@ -5,7 +5,9 @@ class PurchaseOrderController extends AppController{
 	public $components = array('Session');
 
 	public function index(){
-		$this->set('Orden_de_compra', $this->PurchaseOrder->find('all'));
+		//$this->set('Orden_de_compra', $this->PurchaseOrder->find('all'));
+		$this -> PurchaseOrder -> recursive = 0;
+		$this-> set('Orden_de_compra', $this -> paginate());
 	}
 
 	public function add(){
