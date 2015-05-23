@@ -566,3 +566,13 @@ Stack Trace:
 #11 /var/www/html/Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PurchaseOrderController), Object(CakeRequest))
 #12 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2015-05-23 00:46:07 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/var/www/html/Almacen/app/View/Provider/index.ctp, line 31]
+2015-05-23 00:46:07 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Almacen/Provider/
+Stack Trace:
+#0 /var/www/html/Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/A...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/A...', 31, Array)
+#2 /var/www/html/Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/A...', 31, Array)
+#3 /var/www/html/Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
