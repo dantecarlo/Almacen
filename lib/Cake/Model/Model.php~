@@ -61,7 +61,7 @@ class Model extends Object implements CakeEventListener {
  * @var string
  * @link http://book.cakephp.org/2.0/en/models/model-attributes.html#usetable
  */
-	public $useTable = 'login';
+	public $useTable = null;
 
 /**
  * Custom display field name. Display fields are used by Scaffold, in SELECT boxes' OPTION elements.

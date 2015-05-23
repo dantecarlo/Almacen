@@ -37,6 +37,8 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+	public $useTable = 'login';
+
 /**
  * Displays a view
  *
@@ -44,6 +46,7 @@ class PagesController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
+
 
 	public function displayLoginView() {
 		$this->render('login');
@@ -61,7 +64,8 @@ class PagesController extends AppController {
 
 	    print_r( $dbUserLogin );
 
-	    $this->redirect('/');
+	    //$this->redirect('/');
+	    $this->render('login');
 
 	}
 
