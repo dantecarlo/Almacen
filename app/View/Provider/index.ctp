@@ -31,6 +31,4 @@
 		<?php echo $this->Paginator->next('siguiente >', array(),null,array('class'=>'next disabled'));?>
 
 
-
-
 </div>
