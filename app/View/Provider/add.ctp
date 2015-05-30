@@ -8,5 +8,5 @@
 		</fieldset>
 
 	<?php echo $this->Form->end('Guardar Proveedor'); ?>
-
+	
 </div>

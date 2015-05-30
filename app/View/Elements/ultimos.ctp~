@@ -1,0 +1,5 @@
+<h1>Proveedores</h1>
+<?php
+		$providers=$this->requestAction('providers/index/sort:id/direction:desc/limit:3');
+
+?>

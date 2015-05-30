@@ -30,5 +30,6 @@
 		<?php echo $this->Paginator->numbers(array('separator'=>''));?>
 		<?php echo $this->Paginator->next('siguiente >', array(),null,array('class'=>'next disabled'));?>
 
+		<a href="Provider/add">Agregar</a>
 
 </div>
