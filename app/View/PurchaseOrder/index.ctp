@@ -20,4 +20,16 @@
 		</tr>
 	<?php endforeach;?>
 	</table>
+
+	<p>
+		<?php echo $this -> Paginator -> counter(
+			array('format' => 'Pagina {:page} de {:pages}, mostrando {:current} registros de {:count}'))
+		 ?>
+
+	</p>
+	<div class = "paging">
+		<?php echo $this -> Paginator -> prev('< anterior', array(), null, array('class' => 'prev disabled'));?>
+		<?php echo $this -> Paginator -> numbers(array('separador' => '')) ?>
+		<?php echo $this -> Paginator -> next('siguiente >' , array(), null, array('class' => 'next disabled')) ?>
+	</div>
 </div>

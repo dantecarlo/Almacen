@@ -1,6 +1,8 @@
 <?php
 class PurchaseOrderController extends AppController{
-
+	public $paginate = array(
+		'limit' => 10
+	);
 	public $helpers = array('Html', 'Form');
 	public $components = array('Session');
 

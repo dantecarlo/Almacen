@@ -54,12 +54,13 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
+		'datasource' => 'Database/Postgres',
 		'persistent' => false,
+		'port' => '5432',
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'login' => 'postgres',
+		'password' => '1234',
+		'database' => 'almacen',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
