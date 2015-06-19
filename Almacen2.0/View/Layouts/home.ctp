@@ -27,8 +27,8 @@
 		<h1>Módulo Almacen</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Proveedor</a></li>
-				<li><a href="#">Producto</a></li>
+				<li><a href="Providers">Proveedor</a></li>
+				<li><a href="Products">Producto</a></li>
 				<li><a href="#">Orden de entrega</a></li>
 				<li><a href="#">Login</a></li>			</ul>
 		</nav>

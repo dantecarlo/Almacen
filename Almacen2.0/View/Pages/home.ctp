@@ -1,9 +1,8 @@
-
 <?php
-	$this->layout='home';
+	$this->layout='default';
 ?>
 
-<h1> Bienvenido </h1>
+<h1> Bienvenido :) </h1>
 <br>
 <div class="img">
 	<center>

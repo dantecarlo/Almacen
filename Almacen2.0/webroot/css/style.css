@@ -1,8 +1,8 @@
-body{background: #F4F4F4; font-size:11pt;}
-header{background: #212121; height:110px; color:#FFF;}
+body{background: ##6E0037; font-size:11pt;}
+header{background: ##6E0037; height:110px; color:#6E0037;}
 header h1{width:1024px; margin: 0 auto; font-size:45pt; font-family:'Conv_OldLondon',Sans-Serif; font-weight: normal;}
 header nav{
-	background: none repeat scroll 0 0 #2C2E2E;
+	background: none repeat scroll 0 0 #003d4c;
 	/*background-image: linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
 	background-image: -o-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
 	background-image: -moz-linear-gradient(bottom, #000000 50%, #2C2E2E 69%, #2C2E2E 63%);
@@ -14,7 +14,7 @@ header nav{
     margin-top: 25px;
     position: relative;
     z-index: 1;
-	box-shadow: 0 5px 6px #555555;
+	box-shadow: 0 5px 6px #6E0037;
 	-moz-box-shadow: 0px 5px 6px #555;
 	-webkit-box-shadow: 0px 5px 6px #555;
 	}
@@ -24,7 +24,7 @@ header a{text-decoration:none; color:#FFF; font-family: 'Amaranth', sans-serif;}
 header a:hover{color:#F09A2E;}
 div.wrapper_all{
 	background: none repeat scroll 0 0 #FFFFFF;
-    box-shadow: 0px 2px 10px #333333;
+    box-shadow: 0px 2px 10px #6E0037;
     margin: 0 auto;
     overflow: hidden;
     padding: 0 15px;
@@ -38,7 +38,7 @@ div.wrapper_all{
 }
 
 section.content{width:1024px; position:relative; top:30px; clear:both; margin:0 auto;}
-video{background:#EFEFEF; padding:10px; border:1px solid #CCC; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; float:left;}
+video{background:#6E0037; padding:10px; border:1px solid #CCC; border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; float:left;}
 h2{color:#F09A2E; padding:10px 0; font-family: 'Amaranth', sans-serif; font-weight:normal;}
 div.img-video{
 	background: url("../img/sprite_iconos.png") no-repeat scroll 0px -35px transparent;
