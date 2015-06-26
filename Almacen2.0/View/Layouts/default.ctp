@@ -22,7 +22,8 @@
 		echo $this->Html->script('underscore-min');
 		echo $this->Html->script('jquery.easing.1.3');
 		echo $this->Html->script('jquery.min');
-
+		echo $this->Html->script('responsiveslides.min');
+		echo $this->Html->script('mediaelement-and-player.min');
 	?>
 
 </head>
@@ -30,7 +31,6 @@
 <div class="main">
 	<div class="container">
 		<div class="logo">
-
 			<img src="img/almacen.png" alt=""> 
 		</div>
 		<div class="top-header">
@@ -51,10 +51,9 @@
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		</nav>
-</div>
+	</div>
 	<div class="banner">
-	<?php 	echo $this->Html->script('responsiveslides.min'); 	?>
-		  
+			  
   <script>
     $(function () {
       $("#slider").responsiveSlides({
@@ -62,10 +61,10 @@
       	nav: true,
       	speed: 500,
         namespace: "callbacks",
-       
-      });
+        });
     });
-  </script>
+    </script>
+
 			<div  id="top" class="callbacks_container">
 			<ul class="rslides" id="slider">
 			    <li>
@@ -98,9 +97,6 @@
 		</div>
 
 	</div>
-	
-
-
 	</div>
 </div>
 	<div id="container">
