@@ -20,9 +20,6 @@
 </head>
 <body>
 	
-
-
-
 	<header>
 		<h1>Módulo Almacen</h1>
 		<nav>
