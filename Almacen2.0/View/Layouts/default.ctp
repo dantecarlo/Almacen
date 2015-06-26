@@ -31,7 +31,7 @@
 	<div class="container">
 		<div class="logo">
 
-			<img src="img/lo.png" alt=""> 
+			<img src="img/almacen.png" alt=""> 
 		</div>
 		<div class="top-header">
 		<nav class="navbar navbar-default menu">
