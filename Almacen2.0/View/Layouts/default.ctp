@@ -19,6 +19,9 @@
 		echo $this->Html->script('bootstrap');
 		echo $this->Html->script('clndr');
 		echo $this->Html->script('site');
+		echo $this->Html->script('underscore-min');
+		echo $this->Html->script('jquery.easing.1.3');
+		echo $this->Html->script('jquery.min');
 
 	?>
 
@@ -27,6 +30,7 @@
 <div class="main">
 	<div class="container">
 		<div class="logo">
+			
 			<img src="img/lo.png" alt=""> 
 		</div>
 		<div class="top-header">
@@ -47,6 +51,60 @@
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		</nav>
+</div>
+	<div class="banner">
+	<?php 	echo $this->Html->script('responsiveslides.min'); 	?>
+		  
+  <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+       
+      });
+    });
+  </script>
+			<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider">
+			    <li>
+					
+						<div class="banner-text">
+							<h4>Lorem Ipsum </h4>
+							<h3> dolor sit amet.</h3>
+							<p>Pellentesque sit amet nisl quis ipsum aliquet consectetur. Nam eget pharetra libero.</p>
+						<a href="#"><i> </i>read more</a>
+						</div>
+				
+				</li>
+				<li>
+					
+						<div class="banner-text">
+							<h4> dummy text </h4>
+							<h3> sed do eiusmod.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+						<a href="#"><i> </i>read more</a>
+						</div>
+					
+				</li>
+				<li>
+						<div class="banner-text">
+						<h4> unde omnis </h4>
+							<h3> rem aperiam.</h3>
+							<p>Pellentesque sit amet nisl quis ipsum aliquet consectetur. Nam eget pharetra libero.</p>
+						<a href="#"><i> </i>read more</a>
+						</div>
+					
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	
+
+
+	</div>
 </div>
 	<div id="container">
 		<div class="footer-bottom">
