@@ -30,7 +30,7 @@
 <div class="main">
 	<div class="container">
 		<div class="logo">
-			
+
 			<img src="img/lo.png" alt=""> 
 		</div>
 		<div class="top-header">
@@ -71,9 +71,8 @@
 			    <li>
 					
 						<div class="banner-text">
-							<h4>Lorem Ipsum </h4>
-							<h3> dolor sit amet.</h3>
-							<p>Pellentesque sit amet nisl quis ipsum aliquet consectetur. Nam eget pharetra libero.</p>
+							<h4>UCSP </h4>
+							<h3> PROVIDER.</h3>
 						<a href="#"><i> </i>read more</a>
 						</div>
 				
@@ -81,18 +80,16 @@
 				<li>
 					
 						<div class="banner-text">
-							<h4> dummy text </h4>
-							<h3> sed do eiusmod.</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+							<h4> UCSP</h4>
+							<h3> PRODUCT.</h3>
 						<a href="#"><i> </i>read more</a>
 						</div>
 					
 				</li>
 				<li>
 						<div class="banner-text">
-						<h4> unde omnis </h4>
-							<h3> rem aperiam.</h3>
-							<p>Pellentesque sit amet nisl quis ipsum aliquet consectetur. Nam eget pharetra libero.</p>
+						<h4> UCSP</h4>
+							<h3> PURCHASE ORDERS.</h3>
 						<a href="#"><i> </i>read more</a>
 						</div>
 					
@@ -108,7 +105,14 @@
 </div>
 	<div id="container">
 		<div class="footer-bottom">
-			<p>UCSP - Almacen<a href="http://.com/" target="_blank">Ingenieria de Software 2</a> </p>
+			<p>© Danet Delgado | Luisa Nuñez | Dante Nuñez | Eileen Nuñez  <a href="" target="_blank"> Ing. Soft. 2</a> </p>
+		<ul  class="social in-social">
+						<li><a href="#"> <i></i></a></li>
+						<li><a href="#"> <i class="twitter"></i></a></li>
+						
+					</ul>
+					<div class="clearfix"> </div>
+		</div>
 		</div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
