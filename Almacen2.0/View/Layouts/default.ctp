@@ -39,7 +39,7 @@
     		   <!-- Collect the nav links, forms, and other content for toggling -->
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       	<ul class="nav navbar-nav" id= "menu">
-        	<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        	<li class="active"><a href="http://localhost/Almacen/Almacen2.0/">Home <span class="sr-only">(current)</span></a></li>
         	<li><?php echo $this->Html->link(__('Provider'), array('controller'=>'Providers')); ?></li>
         	<li><?php echo $this->Html->link(__('Product'), array('controller'=>'Products')); ?></li>
         	<li><?php echo $this->Form->postLink(__('Purchase Orders'), array('controller'=>'PurchaseOrders')); ?></li>
