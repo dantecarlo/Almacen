@@ -2,15 +2,15 @@
 	<br><br><h2><?php echo __('Purchase Orders'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('product_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('provider_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('date'); ?></th>
-			<th><?php echo $this->Paginator->sort('num_bill'); ?></th>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('num_po'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th><center><?php echo $this->Paginator->sort('product_id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('provider_id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('date'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('num_bill'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('num_po'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('modified'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('created'); ?></center></th>
+			<th class="actions"><center><?php echo __('Actions'); ?></center></th>
 	</tr>
 	<?php
 	foreach ($purchaseOrders as $purchaseOrder): ?>

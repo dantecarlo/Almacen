@@ -2,14 +2,14 @@
 	<br><br><h2><?php echo __('Products'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('name'); ?></th>
-			<th><?php echo $this->Paginator->sort('local_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('order_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('amount'); ?></th>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th><center><?php echo $this->Paginator->sort('name'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('local_id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('order_id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('amount'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('modified'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('created'); ?></center></th>
+			<th class="actions"><center><?php echo __('Actions'); ?></center></th>
 	</tr>
 	<?php
 	foreach ($products as $product): ?>
