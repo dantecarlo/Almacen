@@ -1,5 +1,5 @@
 <div class="providers index">
-	<h2><?php echo __('Providers'); ?></h2>
+	<br><br><h2><?php echo __('Providers'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><center><?php echo $this->Paginator->sort('name'); ?></center></th>

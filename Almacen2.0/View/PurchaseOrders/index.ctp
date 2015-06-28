@@ -1,5 +1,5 @@
 <div class="purchaseOrders index">
-	<h2><?php echo __('Purchase Orders'); ?></h2>
+	<br><br><h2><?php echo __('Purchase Orders'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('product_id'); ?></th>
