@@ -2,14 +2,14 @@
 	<h2><?php echo __('Providers'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
-			<th><?php echo $this->Paginator->sort('name'); ?></th>
-			<th><?php echo $this->Paginator->sort('adress'); ?></th>
-			<th><?php echo $this->Paginator->sort('ruc'); ?></th>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th><?php echo $this->Paginator->sort('local_id'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th><center><?php echo $this->Paginator->sort('name'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('adress'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('ruc'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('id'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('modified'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('created'); ?></center></th>
+			<th><center><?php echo $this->Paginator->sort('local_id'); ?></center></th>
+			<th class="actions"><center><?php echo __('Actions'); ?></center></th>
 	</tr>
 	<?php
 	foreach ($providers as $provider): ?>
