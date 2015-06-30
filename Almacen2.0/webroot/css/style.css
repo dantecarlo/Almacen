@@ -1,6 +1,6 @@
 table {
   border-collapse: separate;
-  border-spacing:  30px 10px;
+  border-spacing:  25px 10px;
 }
 
 body{
@@ -344,11 +344,11 @@ a.follow-at{
 .mid-content a{
 	  text-decoration: none;
   color: #525252;
-  font-size: 5em;
+  font-size: 2em;
   padding: 1px;
   background: #fff;
   display: block;
-  font-weight: 700;
+  font-weight: 699;
   text-align: center;
     line-height: 1.1em;
 }

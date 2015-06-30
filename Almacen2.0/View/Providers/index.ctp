@@ -44,9 +44,10 @@
 	?>
 	</div>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Provider'), array('action' => 'add')); ?></li>
-	</ul>
+<br>
+<div class="col-md-4 mid-load">
+	<div class="mid-content col-md1">
+		<h5><span><?php echo $this->Html->link(__('+ New Provider'), array('action' => 'add')); ?></span></h5>
+	</div>
 </div>
+
