@@ -50,7 +50,17 @@
 	?>
 	</div>
 </div>
-<div class="actions">
+
+<br>
+<div class="col-md-4 mid-load">
+	<div class="mid-content col-md1">
+		<h5><span><?php echo $this->Html->link(__('+ New Purchase Order'), array('action' => 'add')); ?></span></h5>
+	</div>
+</div>
+
+
+
+<!--div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('New Purchase Order'), array('action' => 'add')); ?></li>
@@ -59,4 +69,6 @@
 		<li><?php echo $this->Html->link(__('List Providers'), array('controller' => 'providers', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Provider'), array('controller' => 'providers', 'action' => 'add')); ?> </li>
 	</ul>
-</div>
+</div-->
+
+
