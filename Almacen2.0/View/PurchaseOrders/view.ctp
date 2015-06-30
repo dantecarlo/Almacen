@@ -1,7 +1,7 @@
 <div class="purchaseOrders view">
 <h2><?php  echo __('Purchase Order'); ?></h2>
 	<dl>
-		<dt><?php echo __('Product'); ?></dt>
+		<dt><?php echo __('Product: '); ?></dt>
 		<dd>
 			<?php echo $this->Html->link($purchaseOrder['Product']['name'], array('controller' => 'products', 'action' => 'view', $purchaseOrder['Product']['id'])); ?>
 			&nbsp;
