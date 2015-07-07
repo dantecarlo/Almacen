@@ -30,6 +30,12 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+	Router::connect('/login', array('controller' => 'Pages', 'action' => 'displayLoginView'));
+
+	Router::connect('/loginx', array('controller' => 'Pages', 'action' => 'validateCredentials'));
+
+	Router::connect('/api/auth', array('controller' => 'Pages', 'action' => 'authAPI'));
+
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

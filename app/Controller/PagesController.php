@@ -37,6 +37,8 @@ class PagesController extends AppController {
  */
 	public $uses = array();
 
+	public $useTable = 'login';
+
 /**
  * Displays a view
  *
@@ -44,6 +46,52 @@ class PagesController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
+	public function displayLoginView() {
+		//$this->redirect(array('action'=> 'login'));
+		$this->render('login');
+	}
+
+	public function validateCredentials() {
+		$this->loadModel('Login');
+
+		$username = $this->request->data['username'];
+		$password = $this->request->data['password'];
+
+		$dbUserLogin = $this->Login->find('first', array(
+	        'conditions' => array('Login.username' => $username)
+	    ));
+
+	    if ( $dbUserLogin['Login']['password'] == $password ) {
+	    	$this->redirect('/');
+	    } else {
+	    	$this->redirect('/login?retry=true');
+	    }
+
+
+	}
+
+	public function authAPI() {
+		$this->loadModel('Login');
+
+		$username = $this->request->data['username'];
+		$password = $this->request->data['password'];
+
+		$dbUserLogin = $this->Login->find('first', array(
+	        'conditions' => array('Login.username' => $username)
+	    ));
+
+		// $this->response->print(":D");
+		echo ':D';
+
+	    /*if ( $dbUserLogin['Login']['password'] == $password ) {
+	    	$this->send('/');
+	    } else {
+	    	$this->redirect('/login?retry=true');
+	    }*/
+
+
+	}
+
 	public function display() {
 		$path = func_get_args();
 

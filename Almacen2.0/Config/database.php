@@ -65,9 +65,9 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'port' => '5432',
 		'host' => 'localhost',
-		'login' => 'postgres',
-		'password' => '1234',
-		'database' => 'almacen',
+		'login' => 'eileen',
+		'password' => '',
+		'database' => 'Almacen',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

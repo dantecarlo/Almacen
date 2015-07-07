@@ -2714,3 +2714,1682 @@ Request URL: /Almacen/html/audio.html
 Stack Trace:
 #0 /var/www/html/Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-07-07 11:58:56 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/article.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 11:58:56 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/video.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 11:58:56 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/audio.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 11:59:02 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /Provider
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('providers')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/eileen/Desktop/is2-Almacen/app/Controller/ProviderController.php(11): Controller->paginate()
+#9 [internal function]: ProviderController->index()
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProviderController), Array)
+#11 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProviderController), Object(CakeRequest))
+#13 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-07-07 12:34:53 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/article.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:34:53 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/video.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:34:53 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/audio.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:34:57 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:45:22 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:45:24 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:45:28 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/article.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:45:28 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/video.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:45:28 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /html/audio.html
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:45:34 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:46:34 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /Provider
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('providers')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/eileen/Desktop/is2-Almacen/app/Controller/ProviderController.php(11): Controller->paginate()
+#9 [internal function]: ProviderController->index()
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProviderController), Array)
+#11 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProviderController), Object(CakeRequest))
+#13 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-07-07 12:46:45 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:49:05 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:49:07 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:49:07 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:49:08 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:54:15 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:54:17 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:54:18 Error: [MissingActionException] Action PagesController::displayLoginView() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'displayLoginView',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 12:55:53 Error: [MissingViewException] View file "Pages/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/login.ctp',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/View/View.php(470): View->_getViewFileName('login')
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(960): View->render('login', NULL)
+#2 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(49): Controller->render('login')
+#3 [internal function]: PagesController->displayLoginView()
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:56:53 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:21 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:22 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 12:59:23 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:00:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:00:11 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:20 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:01:21 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:02:27 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:31 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:03:33 Error: [MissingControllerException] Controller class ModulesController could not be found.
+Exception Attributes: array (
+  'class' => 'ModulesController',
+  'plugin' => NULL,
+)
+Request URL: /modules/login/app/main.config.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:05:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-material.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-animate.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/angular-aria.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:06:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/angular-material.css
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:07:28 Error: [MissingActionException] Action PagesController::validateCredentials() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'validateCredentials',
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 13:08:40 Error: [MissingActionException] Action PagesController::validateCredentials() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'validateCredentials',
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-07 13:11:34 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('login')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(62): Model->find('first', Array)
+#7 [internal function]: PagesController->validateCredentials()
+#8 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-07-07 13:11:41 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('login')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(62): Model->find('first', Array)
+#7 [internal function]: PagesController->validateCredentials()
+#8 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-07-07 13:14:32 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'SQLSTATE[08006] [7] fe_sendauth: no password supplied',
+  'enabled' => true,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Datasource/DboSource.php(260): Postgres->connect()
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('login')
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#7 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(62): Model->find('first', Array)
+#8 [internal function]: PagesController->validateCredentials()
+#9 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-07-07 13:18:00 Error: [MissingConnectionException] Database connection "Postgres" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Postgres',
+  'message' => 'SQLSTATE[08006] [7] fe_sendauth: no password supplied',
+  'enabled' => true,
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Datasource/DboSource.php(260): Postgres->connect()
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('login')
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#7 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(62): Model->find('first', Array)
+#8 [internal function]: PagesController->validateCredentials()
+#9 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#10 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#12 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-07-07 13:19:52 Error: [MissingTableException] Table login for model Login was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'login',
+  'class' => 'Login',
+  'ds' => 'default',
+)
+Request URL: /loginx
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3644): Model->setSource('login')
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#3 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(62): Model->find('first', Array)
+#4 [internal function]: PagesController->validateCredentials()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#8 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-07-07 13:22:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.7.2.min.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:22:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.7.2.min.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:23:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.7.2.min.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:32:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.7.2.min.js
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-07 13:45:15 Error: Fatal Error (1): Call to undefined method PagesController::send() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 13:45:15 Error: [FatalErrorException] Call to undefined method PagesController::send()
+Request URL: /api/auth
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 13:51:05 Error: Fatal Error (1): Call to undefined method PagesController::send() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 13:51:05 Error: [FatalErrorException] Call to undefined method PagesController::send()
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 13:51:27 Error: Fatal Error (1): Call to undefined method PagesController::send() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 13:51:27 Error: [FatalErrorException] Call to undefined method PagesController::send()
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 13:51:29 Error: Fatal Error (1): Call to undefined method PagesController::send() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 13:51:29 Error: [FatalErrorException] Call to undefined method PagesController::send()
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 13:52:09 Error: Fatal Error (1): Call to undefined method PagesController::send() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 13:52:09 Error: [FatalErrorException] Call to undefined method PagesController::send()
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 13:52:26 Error: [MissingViewException] View file "Pages/:d.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/:d.ctp',
+)
+Request URL: /api/auth
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/View/View.php(470): View->_getViewFileName(':D')
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(960): View->render(':D', NULL)
+#2 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(115): Controller->render(':D')
+#3 /home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php(83): PagesController->display(':D')
+#4 [internal function]: PagesController->authAPI()
+#5 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#8 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-07-07 13:58:16 Error: [MissingViewException] View file "Pages/auth_a_p_i.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/auth_a_p_i.ctp',
+)
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-07 14:03:05 Error: Fatal Error (1): Call to undefined method CakeResponse::print() in [/home/eileen/Desktop/is2-Almacen/app/Controller/PagesController.php, line 83]
+2015-07-07 14:03:05 Error: [FatalErrorException] Call to undefined method CakeResponse::print()
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/eileen/De...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/eileen/De...', 83, Array)
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-07 14:03:56 Error: [MissingViewException] View file "Pages/auth_a_p_i.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages/auth_a_p_i.ctp',
+)
+Request URL: /api/auth?username=eile&password=sfsdf
+Stack Trace:
+#0 /home/eileen/Desktop/is2-Almacen/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/eileen/Desktop/is2-Almacen/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/eileen/Desktop/is2-Almacen/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/eileen/Desktop/is2-Almacen/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
